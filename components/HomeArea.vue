@@ -18,7 +18,7 @@ import {
   Legend
 } from 'chart.js'
 import { Line } from 'vue-chartjs'
-import { humidityData, temperatureData, options } from './chartConfig.js'
+import { humidityData, temperatureData, options } from './../chartConfig.js'
 
 ChartJS.register(
   CategoryScale,
@@ -31,7 +31,6 @@ ChartJS.register(
 )
 
 export default {
-  name: 'App',
   components: {
     Line
   },
